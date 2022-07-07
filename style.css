@@ -1,0 +1,36 @@
+body {
+  background-color: #9dca9f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: fantasy;
+}
+.frog {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 500px;
+}
+.frog-container {
+  width: 800px;
+  height: 500px;
+  border-radius: 40px;
+}
+.header {
+  font-weight: bold;
+  font-size: 60px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  margin-top: 10px;
+  height: 50px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: x-large;
+}
